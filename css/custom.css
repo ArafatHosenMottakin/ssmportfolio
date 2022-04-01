@@ -1,0 +1,285 @@
+:root{
+	--theme-color: #fb2056;
+	--dark: #222222;
+}
+
+header{
+	background-image: url(../images/best.jpg);
+	height: 100%;
+	background-size: cover;
+	background-position: bottom;
+	background-blend-mode: overlay;
+}
+
+.hero-banner{
+
+	padding: 300px 0;
+
+}
+.hero-banner{
+	text-align: center;
+}
+.hero-banner h3{
+	color: #fff;
+	font-size: 30px;
+	font-style: italic;
+}
+.hero-banner h1{
+	color: #fff;
+	font-size: 70px;
+	text-transform: capitalize;
+	font-weight: 700;
+	letter-spacing: 2px;
+	margin: 30px;
+}
+.line{
+    width: 100px;
+    height: 3px;
+    display: block;
+    background: var(--theme-color);
+    margin: auto;
+}
+.btn-custom{
+	border: 2px solid var(--theme-color);
+	background-color: var(--theme-color);
+	border-radius: 30px;
+	padding: 8px 30px;
+	color: #fff;
+	letter-spacing: 2px;
+	text-transform: capitalize;
+	font-weight: 600;
+	font-size: 15px;
+}
+.btn-custom:hover{
+	background-color: transparent;
+	color: #fff;
+}
+.hero-banner
+.navbar-light .navbar-brand, .navbar-light .navbar-brand:hover {
+	color: rgb(250 250 250);
+}
+.navbar-light .navbar-brand h1{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+}
+.navbar-light .navbar-brand h1 span{
+    display: block;
+    font-weight: 100;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+.navbar-light .navbar-nav .nav-link {
+	color: rgb(255 255 255);
+	border: 2px solid transparent;
+	border-radius: 30px;
+	padding: 5px 30px;
+	font-weight: 500;
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+   color: rgb(255 255 255);
+   border: 2px solid #fff; 
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+	color: rgb(255 255 255);
+	border: 2px solid #fff; 
+}
+
+
+/* ===============================================
+testionial section
+================================================== */
+.testimonial-section{
+    background: #f4f5f9;
+    padding: 30px 0;
+    text-align: center;
+}
+.testimonial-section img{
+	width: 86px;}
+.testimonial h3{
+    font-size: 15px;
+    font-style: italic;
+    padding: 20px;
+    color: #3333334f;
+}
+.testimonial{}
+.testimonial h2{
+	font-size: 15px;
+	color: #3333334f;
+}
+
+
+/* ==============================================
+upcoming-event-section
+================================================= */
+
+.upcoming-events-section{
+    padding: 60px 0;
+    text-align: center;
+}
+.heading{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.heading h1{
+    color: var(--dark);
+    text-transform: uppercase;
+    font-size: 35px;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+.event{}
+.beauty img{
+    box-shadow: 5px 5px #21252938;
+    border-radius: 10px;
+}
+.skyhill img{
+	    box-shadow: 5px 5px #21252938;
+    border-radius: 10px;
+
+}
+
+.beauty .card-body{}
+.beauty .card-body h5{
+    font-size: 25px;
+    text-transform: uppercase;
+    padding: 20px;
+    color: var(--dark);
+    font-weight: 600;
+    margin: 20px 0;
+}
+.beauty .card-body p{
+    font-size: 15px;
+    font-weight: 600;
+    color: #666;
+}
+.beauty .card-body a{
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 600;
+    color: #fb2056;
+    text-decoration: none;
+}
+
+
+.skyhill .card-body{}
+.skyhill .card-body h5{
+    font-size: 25px;
+    text-transform: uppercase;
+    padding: 20px;
+    color: var(--dark);
+    font-weight: 600;
+    margin: 20px 0;
+}
+.skyhill .card-body p{
+    font-size: 15px;
+    font-weight: 600;
+    color: #666;
+}
+.skyhill .card-body a{
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 600;
+    color: #fb2056;
+    text-decoration: none;
+}
+
+.upcoming-events-section .row > div{
+
+padding-left: 30px;
+
+padding-right: 30px;
+}
+
+.explore-section{
+
+background-image: url(../images/mountain.jpg);
+
+height: 100vh;
+
+background-size: cover;
+
+background-position: bottom;
+
+background-blend-mode: overlay;
+
+padding: 100px 0;
+}
+.explore-section h1{
+    color: #fff;
+    font-size: 70px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.explore-section .line,
+.tours-section .line{
+    margin: inherit;
+}
+.explore-section p{
+    font-size: 18px;
+    color: #fff;
+    margin-top: 30px;
+}
+.explore-section a{
+
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 600;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.tours-section {
+	padding: 100px 0;
+
+}
+.tours-section img.tour_img{
+
+height: 200px;
+
+width: 100%;
+
+object-fit: cover;
+
+margin-bottom: 20px;
+
+border-radius: 5px;
+}
+.tours-section img.destination_img{
+
+height: 400px;
+
+object-fit: cover;
+
+margin-bottom: 20px;
+
+border-radius: 5px;
+}
+
+
+.tours-section .container{
+	padding-right: 10rem !important;
+	padding-left: 10rem !important;
+}
+
+.tours-section .btn-custom:hover{
+	color: var(--theme-color);
+}
+.tours-section h2{}
+
+
+
+/*===========================================
+footer-section
+=============================================*/
+.footer-section{
+    background: var(--dark);
+    padding: 30px 0;
+}
+.footer-section h5{color: #faf0ff;text-align: center;}
+. 
